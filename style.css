@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    background: rgb(4, 4, 19);   
+}
+
+#searchBox {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#input {
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background: crimson;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;    
+}
+
+.content-container {
+   width: 90%;
+   color: #fff;
+   font-size: 20px;
+   padding-top: 20px;
+   text-align: justify;
+   max-width: 830px;
+   margin-top: 20px;
+   margin-left: -100px;
+   font-family: sans-serif;
+}
+
+
+
+/* Javscript */
+mark {
+    background: crimson;
+    text-decoration: underline;
+}
