@@ -72,7 +72,7 @@ function updateTimer() {
 function formatenumber(number, desiredLength) {
     const stringNumber = String(number);
     if (stringNumber.length > desiredLength) {
-        return stringNumber;
+        return stringNumber.slice(0, desiredLength);
     }
 
 
