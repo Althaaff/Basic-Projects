@@ -1,7 +1,7 @@
 let input = document.getElementById('inputBox');
 
 
-input.addEventListener('keydown', validate()) 
+input.addEventListener('keydown', validate) 
 
 
 function validate() {
