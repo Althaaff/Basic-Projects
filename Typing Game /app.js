@@ -69,7 +69,7 @@ function end() {
 
 function results() {
     let valueOne = game.arrText.split(' ');
-    let valueTwo = game.user.split('');
+    let valueTwo = game.user.split(' ');
     let score = 0;
     
     valueOne.forEach((word, idx) => {
